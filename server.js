@@ -39,7 +39,7 @@ mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true 
 //route for index
 app.get("/", function(req,res){
     res.render("index")
-})
+});
 
 // A GET route for scraping the echoJS website
 app.get("/scrape", function(req, res) {
